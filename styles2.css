@@ -1,0 +1,158 @@
+/*Encabezado*/
+.row .top-nav .nav{
+  display: flex;
+}
+.top-nav .nav{
+  background-color: gray;
+  justify-content: center;
+  height: 27px;
+  padding-top: 0;
+}
+
+.nav-link1{
+  color: #fff !important;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a{
+  padding: 0;
+}
+/*fin encabezado*/
+
+/*Navbar*/
+.menu{
+  position:fixed;
+}
+.nav-principal{
+  background-color: #295596;
+  
+}
+.menu-principal{
+  color: #ffffff !important;
+  font-weight: 900 !important;
+  font-size: 20px !important;
+}
+.menu-principal:hover{
+  color: #295596 !important;
+  font-weight: 900 !important;
+  font-size: 20px !important;
+  background-color: #fff;
+}
+.navbar-expand-lg .navbar-nav{
+  padding-left: 90px !important;
+}
+.nav-item{
+  padding-right: 30px;
+}
+/*fin Navbar*/
+
+/*redes sociales*/
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-twitter {
+	background: #339DC5;
+}
+
+.icon-youtube {
+	background: #E83028;
+}
+
+.icon-instagram {
+	background: #3F60A5;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+/*fin redes sociales*/
+
+/*La empresa*/
+.la-empresa-conteiner{
+  background-color: #295596;
+}
+.la-empresa{
+  text-align: center;
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.la-empresa-p{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  text-align: center;
+  padding: 20px 5% 0px 5% !important;
+  font-weight: 500;
+
+}
+
+/*Fin La empresa*/
+
+
+/*Contactenos*/
+.box a{
+  text-decoration: none;
+  color: #fff;
+}
+.box .box2:hover{
+  color: #fff;
+  background-color: #3a77d3;
+  border-radius: 8px;
+  padding: 8px;
+}
+.box img{
+  border: 5px solid #fff;
+  border-radius: 9px;
+}
+/*Fin Contactenos*/
+
+
+/*Media qerys*/
+@media (max-width: 580px) {
+  .top-nav .nav{
+    height: 32px;
+  }
+  .top-nav .nav a{
+    font-size: 12px;
+    align-items: center;
+  }
+  .aaa{
+    width: 6px;
+  }
+  
+}
+
+
