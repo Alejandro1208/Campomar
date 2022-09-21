@@ -24,6 +24,8 @@ a{
 /*Navbar*/
 .menu{
   position:fixed;
+  width: 100%;
+  z-index: 999;
 }
 .nav-principal{
   background-color: #295596;
