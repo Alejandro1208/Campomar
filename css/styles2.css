@@ -27,6 +27,9 @@ a{
   width: 100%;
   z-index: 999;
 }
+#carouselExampleControls{
+  padding-top: 98px;
+}
 .nav-principal{
   background-color: #295596;
   
