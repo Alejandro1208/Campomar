@@ -3,17 +3,25 @@
   display: flex;
 }
 .top-nav .nav{
-  background-color: gray;
+  background-color: #295596;
   justify-content: center;
   height: 27px;
   padding-top: 0;
 }
 
-.nav-link1{
-  color: #fff !important;
+.nav-link2{
+  color: #295596 !important;
   text-decoration: none;
   padding-left: 10px;
   padding-right: 10px;
+  font-weight: 800;
+}
+.nav-link1{
+  color: #f0f0f0 !important;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
 }
 
 a{
@@ -21,21 +29,25 @@ a{
 }
 /*fin encabezado*/
 
+
+/*Banners*/
+.mobil{
+  object-fit: cover;
+}
+/*fin banners*/
+
 /*Navbar*/
 .menu{
   position:fixed;
   width: 100%;
   z-index: 999;
 }
-#carouselExampleControls{
-  padding-top: 98px;
-}
 .nav-principal{
-  background-color: #295596;
+  background-color:#f0f0f0;
   
 }
 .menu-principal{
-  color: #ffffff !important;
+  color: #295596 !important;
   font-weight: 900 !important;
   font-size: 20px !important;
 }
@@ -54,6 +66,31 @@ a{
 /*fin Navbar*/
 
 /*redes sociales*/
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
 .social-bar {
 	position: fixed;
 	right: 0;
@@ -146,7 +183,7 @@ a{
 
 
 /*Media qerys*/
-@media (max-width: 580px) {
+@media (max-width: 480px) {
   .top-nav .nav{
     height: 32px;
   }
@@ -158,6 +195,12 @@ a{
     width: 6px;
   }
   
+ 
 }
-
+ /*Banner*/
+ @media screen and (max-width: 400px) {
+  .movil{
+      background-image: url("../img/icons8-login-24.png");
+  }
+}
 
