@@ -163,6 +163,10 @@ a{
 
 /*Fin La empresa*/
 
+/*productos*/
+
+/*Fin productos*/
+
 
 /*Contactenos*/
 .box a{
@@ -183,9 +187,9 @@ a{
 
 
 /*Media qerys*/
-@media (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .top-nav .nav{
-    height: 32px;
+    height: 20px;
   }
   .top-nav .nav a{
     font-size: 12px;
@@ -193,14 +197,16 @@ a{
   }
   .aaa{
     width: 6px;
+  } 
+
+  #carouselExampleIndicators{
+    padding-top: 114px !important;
   }
-  
- 
-}
- /*Banner*/
- @media screen and (max-width: 400px) {
-  .movil{
-      background-image: url("../img/icons8-login-24.png");
+
+  .mobil{
+    width: 200px;
+    height: 400px;
   }
 }
+
 
