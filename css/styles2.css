@@ -8,7 +8,9 @@
   height: 27px;
   padding-top: 0;
 }
-
+.logo{
+  margin-right: 99px;
+}
 .nav-link2{
   color: #295596 !important;
   text-decoration: none;
@@ -24,9 +26,11 @@
   font-size: 14px;
 }
 
-a{
-  padding: 0;
+.navbar-text a{
+
+  font-size: 20px; 
 }
+
 /*fin encabezado*/
 
 
@@ -50,6 +54,7 @@ a{
   color: #295596 !important;
   font-weight: 900 !important;
   font-size: 20px !important;
+  
 }
 .menu-principal:hover{
   color: #295596 !important;
@@ -57,9 +62,11 @@ a{
   font-size: 20px !important;
   background-color: #fff;
 }
-.navbar-expand-lg .navbar-nav{
-  padding-left: 90px !important;
+.me-auto li{
+  padding: 20px;
 }
+
+
 .nav-item{
   padding-right: 30px;
 }
@@ -209,6 +216,10 @@ a{
     width: 200px;
     height: 300px;
   }
+  .me-auto{
+    padding-left: 0%;
+  }
+
 }
 
 

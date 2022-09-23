@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="/css/estilos.css">
         <link rel="stylesheet" href="/css/styles2.css">
         <link rel="stylesheet" href="./css/productos.css">
+        <link rel="stylesheet" href="./css/time-lapse.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     </head>
     <body>
@@ -26,7 +27,7 @@
             <div class="row nav-principal">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
-                        <img src="./img/logo.png" alt="" width="200px" >
+                        <img src="./img/logo.png" alt="" class="logo" width="200px" >
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         </button>
@@ -126,7 +127,7 @@
                 <button class="btn filter-button" data-filter="encendido">Encendido</button>
                 <button class="btn filter-button" data-filter="electricidad">Electricidad</button>
                 <button class="btn filter-button" data-filter="inyeccion">Inyección</button>
-                <button class="btn filter-button" data-filter="iluminacion">Iluminación</button>
+                <button class="btn filter-button active" data-filter="iluminacion">Iluminación</button>
                 <button class="btn filter-button" data-filter="accesorios">Accesorios</button>
                 <button class="btn filter-button" data-filter="mecanica">Mecánica</button>
             </div>
@@ -405,6 +406,43 @@
         </div>
         <!--Fin Productos-->
 
+        <!--Linea de tiempo-->
+        <div class="timelapse-titulo">
+            Nuestra historia
+        </div>  
+        <section class="timeline add">
+            <ol>
+                <li>
+                    <div>
+                        <time>1934</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>1937</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>1940</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>1943</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>1946</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                    </div>
+                </li>
+                <li style="width: 100vh;"></li>
+            </ol>
+          </section>
+        <!--Fin linea de tiempo-->
+
+
         <!--Contactenos-->
         <div class="container-fluid">
             <div class="row">
@@ -453,6 +491,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
         <script src="./js/productos.js"></script>
+        <script src="./js/time-lapse.js"></script>
     </body>
 </html>
 </html>
