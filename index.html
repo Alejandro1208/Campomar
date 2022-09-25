@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="./css/time-lapse.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     </head>
-    <body>
+    <body style="overflow-x: hidden;">
 
         <!--Encabezado-->
         <div class="container-fuid menu">
@@ -24,26 +24,28 @@
                 </nav>
                 
             </div>
-            <div class="row nav-principal">
+            <div id="inicio" class="row nav-principal">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
-                        <img src="./img/logo.png" alt="" class="logo" width="200px" >
+                        <a  href="#"><img id="inicio" src="./img/logo.png" alt="" class="logo" width="200px"></a>
+                        
+                        
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarText">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link menu-principal active" aria-current="page" href="#">Inicio</a>
+                                    <a class="nav-link menu-principal active" aria-current="page" href="#inicio">Inicio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link menu-principal" href="#">La empresa</a>
+                                    <a class="nav-link menu-principal" href="#la-empresa">La empresa</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link menu-principal" href="#">Productos</a>
+                                    <a class="nav-link menu-principal" href="#productos">Productos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link menu-principal" href="#">Contactenos</a>
+                                    <a class="nav-link menu-principal" href="#contactenos">Contactenos</a>
                                 </li>
                             </ul>
                             <span class="navbar-text">
@@ -106,7 +108,7 @@
         </div>
 
         <!--La empresa-->
-        <div class="container-fluid la-empresa-conteiner">
+        <div id="la-empresa" class="container-fluid la-empresa-conteiner">
             <div class="row">
                 <h2 class="la-empresa">
                     La empresa
@@ -119,9 +121,45 @@
             </div>
         </div>
 
+        <!--Linea de tiempo-->
+                <div class="timelapse-titulo">
+                    Nuestra historia
+                </div>  
+                <section class="timeline add">
+                    <ol>
+                        <li>
+                            <div>
+                                <time>1934</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>1937</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>1940</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>1943</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>1946</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                            </div>
+                        </li>
+                        <li style="width: 100vh;"></li>
+                    </ol>
+                </section>
+        <!--Fin linea de tiempo-->
+
         <!--Productos-->
-        <h1>Productos</h1>
-        <div class="row">
+        <h1 id="productos" >Productos</h1>
+        <divclass="row">
             <div align="center">
                 <button class="btn filter-button" data-filter="all">Todas</button>
                 <button class="btn filter-button" data-filter="encendido">Encendido</button>
@@ -406,52 +444,51 @@
         </div>
         <!--Fin Productos-->
 
-        <!--Linea de tiempo-->
-        <div class="timelapse-titulo">
-            Nuestra historia
-        </div>  
-        <section class="timeline add">
-            <ol>
-                <li>
-                    <div>
-                        <time>1934</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <time>1937</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <time>1940</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <time>1943</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <time>1946</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-                    </div>
-                </li>
-                <li style="width: 100vh;"></li>
-            </ol>
-          </section>
-        <!--Fin linea de tiempo-->
-
-
         <!--Contactenos-->
-        <div class="container-fluid">
-            <div class="row">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0168878894588!2d-58.38375908432954!3d-34.60373446500692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1663464052457!5m2!1ses!2sar" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="container-fluid contacto">            
+            <div class="contact_form">
+                <div class="formulario">			
+                <h1 class="h1-contacto">Dejanos tu mensaje</h1>
+                        <form action="index.php" method="post">				                           
+                            <p>
+                                <label for="nombre" class="colocar_nombre">Nombre
+                                    <span class="obligatorio">*</span>
+                                </label>
+                                    <input type="text" name="name" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                            </p>
+                            <p>
+                                <label for="email" class="colocar_email">Email
+                                    <span class="obligatorio">*</span>
+                                </label>
+                                    <input type="email" name="mail" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                            </p> 
+                            <p>
+                                <label for="telefone" class="colocar_telefono">Teléfono
+                                </label>
+                                    <input type="tel" name="phone" id="telefono" placeholder="Escribe tu teléfono">
+                            </p>										
+                            <p>
+                                <label for="mensaje" class="colocar_mensaje">Mensaje
+                                    <span class="obligatorio">*</span>
+                                </label>                     
+                                    <textarea name="message" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                            </p>	  								
+                            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                            <p class="aviso">
+                                <span class="obligatorio"> * </span>los campos son obligatorios.
+                            </p>					     
+                </form>
+                </div>	
             </div>
+            <div class="row">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0168878894588!2d-58.38375908432954!3d-34.60373446500692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1663464052457!5m2!1ses!2sar" width="100%" height="300" style="border:0; padding-left: 0%; padding-right: 0%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+    
         </div>
 
         <!--Pie de pagina-->
-        <footer class="pie-pagina">
+        <footer id="contactenos" class="pie-pagina">
             <div class="grupo-1">
                 <div class="box">
                     <figure>
@@ -492,6 +529,7 @@
         <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
         <script src="./js/productos.js"></script>
         <script src="./js/time-lapse.js"></script>
+        <script src="./js/form.js"></script>
     </body>
 </html>
 </html>
