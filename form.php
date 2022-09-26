@@ -20,5 +20,5 @@ $asunto = 'Mensaje sitio web campomar';
 
 mail($para, $asunto, utf8_decode($message), $header);
 
-header("index.html");
+header("Location:index.html");
 ?>
