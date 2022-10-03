@@ -1,6 +1,5 @@
 @font-face {
     font-family: 'icomoon';
-    src:  url('/fonts/icomoon.eot?i226ha');
     src:  url('/fonts/icomoon.eot?i226ha#iefix') format('embedded-opentype'),
       url('/fonts/icomoon.ttf?i226ha') format('truetype'),
       url('/fonts/icomoon.woff?i226ha') format('woff'),
@@ -9,7 +8,7 @@
     font-style: normal;
   }
   
-  [class^="icon-"], [class*=" icon-"] {
+  [class^="icon-"], [class*=" icon-"],[class*="icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
     speak: none;
@@ -33,6 +32,6 @@
   .icon-twitter:before {
     content: "\ea96";
   }
-  .icon-youtube:before {
+  .fa-phone:before {
     content: "\ea9d";
   }

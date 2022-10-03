@@ -1,6 +1,6 @@
 (function ($) {
     "use strict";
-    
+
     // Dropdown on mouse hover
     $(document).ready(function () {
         function toggleNavbarMethod() {
@@ -18,7 +18,7 @@
         $(window).resize(toggleNavbarMethod);
     });
     
-    
+    $('.navbar-collapse').collapse('hide');
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
@@ -157,6 +157,7 @@
                 items:4
             }
         }
-    });
-    
+    }); 
 })(jQuery);
+
+

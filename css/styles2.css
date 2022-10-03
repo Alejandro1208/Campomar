@@ -108,7 +108,10 @@
 	align-items: flex-end;
 	z-index: 100;
 }
-
+#contactenos a{
+  text-decoration: none; 
+  color: #FFF;
+}
 .icon {
 	color: white;
 	text-decoration: none;
@@ -116,21 +119,36 @@
 	display: flex;
 	transition: all .5s;
 }
+.social-bar .fa {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+.social-bar .mail {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
 
 .icon-facebook {
 	background: #2E406E;
 }
 
-.icon-twitter {
+.fa-envelope {
 	background: #339DC5;
 }
 
-.icon-youtube {
-	background: #E83028;
+.fa-phone{
+	background: #62e828;
 }
 
 .icon-instagram {
-	background: #3F60A5;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 
 .icon:first-child {
@@ -146,17 +164,31 @@
 	border-radius: 1rem 0 0 1rem;
 	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
 }
+.social-bar .fa:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
 /*fin redes sociales*/
 
 /*La empresa*/
 .la-empresa-conteiner{
   background-color: #295596;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .la-empresa{
   text-align: center;
   font-size: 50px;
   color: #ffffff;
   font-weight: 600;
+}
+
+.nosotros-img img{
+  width: 400px;
+}
+.nosotros-img img{
+  padding-left: 10px;
 }
 
 .la-empresa-p{
@@ -174,159 +206,13 @@
 
 /*Fin productos*/
 
-
-/*Contactenos*/
-.box a{
-  text-decoration: none;
-  color: #fff;
-}
-.box .box2:hover{
-  color: #fff;
-  background-color: #3a77d3;
-  border-radius: 8px;
-  padding: 8px;
-}
-.box img{
-  border: 5px solid #fff;
-  border-radius: 9px;
-}
-
-.contact_form{	
-	width: 460px; 
-  height: auto;
-  margin: 80px auto;
-  margin-bottom: 0%;
-	border-radius: 10px;  
-	padding-top: 30px;
-	padding-bottom: 20px;  
-  background-color: #fbfbfb; 
-  padding-left: 30px; 
-}
-iframe{
-  padding-top: 30px;
-}
-
-.contacto{
-  background: rgb(41,85,150);
-  background: linear-gradient(0deg, rgba(41,85,150,1) 0%, rgba(39,80,148,1) 60%, rgba(9,9,121,1) 100%, rgba(9,14,125,1) 100%, rgba(0,212,255,1) 100%);
-  padding-top: 10px;
-  padding-bottom: 10px !important;
-}
-input{
-	background-color: #fbfbfb; 
-	width: 408px; 
-	height: 40px; 
-	border-radius: 5px;  
-	border-style: solid; 
-	border-width: 1px; 
-	border-color: #f0f0f0; 
-	margin-top: 10px;  
-	padding-left: 10px;
-  margin-bottom: 20px; 
-}
-
-
-textarea{
-  background-color: #fbfbfb; 
-	width: 405px; 
-	height: 100px; 
-	border-radius: 5px;  
-	border-style: solid; 
-	border-width: 1px; 
-	border-color: #295596; 
-	margin-top: 10px;  
-	padding-left: 10px;
-  margin-bottom: 20px; 
-  padding-top: 15px; 
-}
-
-
-label{
-  display: block; 
-	float: center; 	
-}
-
-
-#enviar{
-	height: 45px; 
-	padding-left: 5px;
-	padding-right: 5px; 	
-	margin-bottom: 20px; 
-	margin-top: 10px; 	
-	text-transform: uppercase;
-	background-color: #295596; 
-	border-color: #295596; 
-	border-style: solid; 
-	border-radius: 10px;	
-	width: 405px;   
-  cursor: pointer;
-}
-
-
-button p{
-	color: #fff; 
-}
-
-
-span{
-	color: #295596; 
-}
-
-
-.aviso{
-	font-size: 13px;  
-	color: #0e0e0e;  
-}
-
-
-.h1-contacto{
-	font-size: 39px;  
-	text-align: letf; 
-	padding-bottom: 20px; 
-	color: #295596;
-}
-
-
-h3{
-	font-size: 16px; 
-	padding-bottom: 30px;
-	color: #0e0e0e;   
-}
-
-
-p{
-	font-size: 14px; 
-	color: #0e0e0e; 
-}
-
-
-::-webkit-input-placeholder {
- color: #a8a8a8;
-}
-
-
-::-webkit-textarea-placeholder {
- color: #a8a8a8;
-}
-
-
-.formulario input:focus{
-	outline:0;
-	border: 1px solid #295596;
-}
-
-
-.formulario textarea:focus{
-	outline:0;
-	border: 1px solid #295596;
-}
-/*Fin Contactenos*/
-
-
 /*Media qerys*/
 @media screen and (max-width: 600px) {
   .top-nav .nav{
     height: 20px;
+  }
+  .top-nav p{
+    display: none;
   }
   .top-nav .nav a{
     font-size: 12px;
@@ -349,26 +235,13 @@ p{
   .me-auto{
     padding-left: 0%;
   }
+  .nosotros-img{
+    padding-left: 29px;
+  }
+  .nosotros-img img{
+    padding-bottom: 25px;
+  }
 
-  .contact_form{
-    width: 300px;
-  }
-  input{
-    width: 240px;
-  }
-  #enviar{
-    width: 240px;
-  }
-  textarea{
-    width: 240px;
-  }
-  .h1-contacto{
-    font-size: 23px;
-    font-weight: 700;
-    color: #295596;
-    padding: 0%;
-    margin: 0%;
-  }
 }
 
 
