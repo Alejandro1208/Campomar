@@ -64,15 +64,16 @@
   content: '';
   position: absolute;
   top: -9px;
-  left: calc(100% + -27px);
+  left: calc(100% + -32px);
   bottom: 0;
-  width: 24px;
-  height: 24px;
+  width: 26px;
+  height: 26px;
   transition: .5s;
   float: left;
-  box-shadow: 10px 10px 0 #ff3e3e;
+  box-shadow: 12px 12px 0 #ff3e3e;
   transform: rotate(313deg);
   font-weight: bold;
+  border-radius: 4px;
 }
 
 .timeline ol li div {

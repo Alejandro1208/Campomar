@@ -32,16 +32,22 @@
 }
 h6{
     text-align: center;
-    font-size: 13px!important;
+    font-size: 11px!important;
 }
 .lista img{
     align-items: center;
     justify-content: center;
-    padding-left: 20%;
+    margin-left: 20%;
 }
-
-@media screen and (max-width: 600px){
+.lista .estilosimg{
+    margin-left: 30%;
+    width: 150px;
+}
+@media screen and (max-width: 400px){
     .lista img{
-        padding-left: 0%;
+        margin-left: 0;
+    }
+    .lista .estilosimg{
+        margin-left: 10%;
     }
 }
