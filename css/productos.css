@@ -43,13 +43,13 @@ h6{
 
 .lista .estilosimg{
     margin-left: 30%;
-    width: 150px;
+    width: 185px;
 }
 @media screen and (max-width: 400px){
     .lista img{
-        margin-left: 0;
+        margin: auto;
     }
     .lista .estilosimg{
-        margin-left: 10%;
+        margin: auto;
     }
 }
