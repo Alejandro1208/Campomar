@@ -30,9 +30,6 @@
 
   font-size: 20px; 
 }
-.navbar-collapse{
-  height: 350px !important;
-}
 
 /*fin encabezado*/
 
@@ -226,6 +223,10 @@
   .aaa{
     width: 6px;
   } 
+
+  .navbar-collapse{
+    height: 350px !important;
+  }
 
   #carouselExampleIndicators{
     padding-top: 114px !important;
