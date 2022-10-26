@@ -10,6 +10,7 @@
 }
 .logo{
   margin-right: 99px;
+  width: 300px;
 }
 .nav-link2{
   color: #295596 !important;
@@ -21,8 +22,8 @@
 .nav-link1{
   color: #f0f0f0 !important;
   text-decoration: none;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   font-size: 14px;
 }
 
@@ -189,6 +190,7 @@
 }
 .nosotros-img img{
   width: 400px;
+  height: 400px;
   box-shadow: 0px 10px 10px -6px black;
 }
 
@@ -223,6 +225,12 @@
   .aaa{
     width: 6px;
   } 
+  .logo{
+    width: 200px;
+  }
+  .encabezado-pie{
+    padding-bottom: 40px;
+  }
 
   .navbar-collapse{
     height: 350px !important;
@@ -247,6 +255,7 @@
   .nosotros-img img{
     margin-bottom: 38px;
     width: 330px;
+    height: 250px;
   }
 
 }
