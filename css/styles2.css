@@ -30,9 +30,7 @@
   padding-right: 30px;
   font-size: 14px;
 }
-.nav-link2:hover{
-  margin-top: 10px;
-}
+
 
 
 .navbar-text a{
@@ -71,8 +69,7 @@
   font-weight: 900 !important;
   font-size: 20px !important;
   margin-top: -4px;
-  width: 100%;
-  height: 30px;
+
   text-decoration: underline;
 }
 .me-auto li{
@@ -246,6 +243,9 @@
 
   .navbar-collapse{
     height: 350px !important;
+  }
+  .menu-principal:hover{
+    margin: 0 !important;
   }
 
   #carouselExampleIndicators{
