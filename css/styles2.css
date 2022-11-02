@@ -36,7 +36,7 @@
 .navbar-text a{
 
   font-size: 20px; 
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif !important;
 }
 
 /*fin encabezado*/
@@ -212,6 +212,10 @@
   font-weight: 500;
 
 }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+  font-family: 'Raleway', sans-serif !important;
+} 
 
 /*Fin La empresa*/
 
