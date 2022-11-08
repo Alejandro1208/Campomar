@@ -267,23 +267,17 @@
   .nosotros-img img{
     margin-bottom: 38px;
     width: 330px;
-    height: 250px;
+
   }
 
 }
 
 /*tablet */
-@media screen and (max-width: 1300px){
-  .nosotros-img img{
-    width: 280px;
-    height: 200px;
-  }
-}
+
 
 @media screen and (max-width: 1300px){
   .nosotros-img img{
     width: 250px;
-    height: 180px;
   }
   .logo{
     width: 200px;
