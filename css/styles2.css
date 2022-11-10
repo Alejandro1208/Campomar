@@ -179,16 +179,17 @@
 
 /*La empresa*/
 .la-empresa-conteiner{
-  background-color: #295596;
+  background-color: #f0f0f0;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 .la-empresa{
   text-align: center;
   font-size: 50px;
-  color: #ffffff;
+  color: #295596;
   font-weight: 600;
 }
+
 
 .nosotros-img{
   text-align: center;
@@ -201,7 +202,7 @@
 
 
 .la-empresa-p{
-  color: rgb(255, 255, 255);
+  color: #295596;
   font-size: 20px;
   margin: auto;
   padding: 20px 5% 50px 5% !important;
